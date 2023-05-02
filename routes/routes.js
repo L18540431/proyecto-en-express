@@ -13,3 +13,4 @@ app.get('/users', (request, response)=>{
         response.send(result);
     });;
 });
+module.exports=router;

@@ -1,15 +1,15 @@
 const mysql = require('mysql');
 
-//set database connection credentials
-const config ={
-    host:'localhost',
-    user:'root',
-    password: 'root',
-    database: 'api',
+//Set database connection credentials
+const config = {
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'proyecto-express',
 };
 
-//create a MySQL pool
-const pool= mysql.createPool(config);
+//Create a MySQL pool
+const pool = mysql.createPool(config);
 
-//export the pool
-module.exports=pool;
+//Export the pool
+module.exports = pool;
